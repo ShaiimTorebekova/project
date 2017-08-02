@@ -1,0 +1,11 @@
+// Example program
+#include <iostream>
+
+int main()
+{
+int n,m;
+cout « "Введите объем вашего двигателя? ";
+getline (cin, n);
+m = 1618*9+(n-2500)*7;
+cout « "Налог на транспорт = " « m « "!\n";
+}
